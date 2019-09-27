@@ -12,6 +12,18 @@
 		F444DF96232C2DFC007C3786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DF94232C2DFC007C3786 /* Main.storyboard */; };
 		F444DF98232C2DFE007C3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444DF97232C2DFE007C3786 /* Assets.xcassets */; };
 		F444DF9B232C2DFE007C3786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DF99232C2DFE007C3786 /* LaunchScreen.storyboard */; };
+		F444DFA3232CEF95007C3786 /* Country.plist in Resources */ = {isa = PBXBuildFile; fileRef = F444DFA2232CEF95007C3786 /* Country.plist */; };
+		F444DFA5232CEFC3007C3786 /* IDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFA4232CEFC3007C3786 /* IDisplayable.swift */; };
+		F444DFA7232CEFDF007C3786 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFA6232CEFDF007C3786 /* Employee.swift */; };
+		F444DFA9232CF046007C3786 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFA8232CF046007C3786 /* FullTime.swift */; };
+		F444DFAB232CF088007C3786 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFAA232CF088007C3786 /* PartTime.swift */; };
+		F444DFAD232CF0A8007C3786 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFAC232CF0A8007C3786 /* Intern.swift */; };
+		F444DFAF232CF0C6007C3786 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFAE232CF0C6007C3786 /* Vehicle.swift */; };
+		F444DFB1232CF0F1007C3786 /* DOBPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB0232CF0F1007C3786 /* DOBPickerDialog.swift */; };
+		F444DFB3232CF197007C3786 /* EmployeeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB2232CF197007C3786 /* EmployeeListController.swift */; };
+		F444DFB5232CF1B4007C3786 /* EmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB4232CF1B4007C3786 /* EmployeeListCell.swift */; };
+		F444DFB7232CF1E1007C3786 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB6232CF1E1007C3786 /* InfoListViewController.swift */; };
+		F444DFB9232E4458007C3786 /* CountryPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB8232E4458007C3786 /* CountryPickerDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		F444DF97232C2DFE007C3786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F444DF9A232C2DFE007C3786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F444DF9C232C2DFE007C3786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F444DFA2232CEF95007C3786 /* Country.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Country.plist; sourceTree = "<group>"; };
+		F444DFA4232CEFC3007C3786 /* IDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplayable.swift; sourceTree = "<group>"; };
+		F444DFA6232CEFDF007C3786 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		F444DFA8232CF046007C3786 /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		F444DFAA232CF088007C3786 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		F444DFAC232CF0A8007C3786 /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		F444DFAE232CF0C6007C3786 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F444DFB0232CF0F1007C3786 /* DOBPickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOBPickerDialog.swift; sourceTree = "<group>"; };
+		F444DFB2232CF197007C3786 /* EmployeeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListController.swift; sourceTree = "<group>"; };
+		F444DFB4232CF1B4007C3786 /* EmployeeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListCell.swift; sourceTree = "<group>"; };
+		F444DFB6232CF1E1007C3786 /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
+		F444DFB8232E4458007C3786 /* CountryPickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,18 @@
 				F444DF97232C2DFE007C3786 /* Assets.xcassets */,
 				F444DF99232C2DFE007C3786 /* LaunchScreen.storyboard */,
 				F444DF9C232C2DFE007C3786 /* Info.plist */,
+				F444DFA2232CEF95007C3786 /* Country.plist */,
+				F444DFA4232CEFC3007C3786 /* IDisplayable.swift */,
+				F444DFA6232CEFDF007C3786 /* Employee.swift */,
+				F444DFA8232CF046007C3786 /* FullTime.swift */,
+				F444DFAA232CF088007C3786 /* PartTime.swift */,
+				F444DFAC232CF0A8007C3786 /* Intern.swift */,
+				F444DFAE232CF0C6007C3786 /* Vehicle.swift */,
+				F444DFB0232CF0F1007C3786 /* DOBPickerDialog.swift */,
+				F444DFB2232CF197007C3786 /* EmployeeListController.swift */,
+				F444DFB4232CF1B4007C3786 /* EmployeeListCell.swift */,
+				F444DFB6232CF1E1007C3786 /* InfoListViewController.swift */,
+				F444DFB8232E4458007C3786 /* CountryPickerDialog.swift */,
 			);
 			path = HRManagement;
 			sourceTree = "<group>";
@@ -125,6 +161,7 @@
 				F444DF9B232C2DFE007C3786 /* LaunchScreen.storyboard in Resources */,
 				F444DF98232C2DFE007C3786 /* Assets.xcassets in Resources */,
 				F444DF96232C2DFC007C3786 /* Main.storyboard in Resources */,
+				F444DFA3232CEF95007C3786 /* Country.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +172,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F444DFAF232CF0C6007C3786 /* Vehicle.swift in Sources */,
 				F444DF93232C2DFC007C3786 /* ViewController.swift in Sources */,
+				F444DFB9232E4458007C3786 /* CountryPickerDialog.swift in Sources */,
+				F444DFAD232CF0A8007C3786 /* Intern.swift in Sources */,
+				F444DFA9232CF046007C3786 /* FullTime.swift in Sources */,
+				F444DFA7232CEFDF007C3786 /* Employee.swift in Sources */,
+				F444DFB3232CF197007C3786 /* EmployeeListController.swift in Sources */,
+				F444DFAB232CF088007C3786 /* PartTime.swift in Sources */,
+				F444DFB1232CF0F1007C3786 /* DOBPickerDialog.swift in Sources */,
+				F444DFA5232CEFC3007C3786 /* IDisplayable.swift in Sources */,
 				F444DF91232C2DFC007C3786 /* AppDelegate.swift in Sources */,
+				F444DFB7232CF1E1007C3786 /* InfoListViewController.swift in Sources */,
+				F444DFB5232CF1B4007C3786 /* EmployeeListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FMMED42TM5;
+				DEVELOPMENT_TEAM = BV23AH98TD;
 				INFOPLIST_FILE = HRManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FMMED42TM5;
+				DEVELOPMENT_TEAM = BV23AH98TD;
 				INFOPLIST_FILE = HRManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
