@@ -59,6 +59,11 @@ class ViewController: UIViewController {
         if !ViewController.isLoad {
             ViewController.save()
         }
+        
+        #if GAPPS
+        ctrlEmpType.insertSegment(withTitle: "Intern", at: 2, animated: false)
+        #endif
+        
         super.viewWillAppear(animated)
     }
     
@@ -146,6 +151,7 @@ class ViewController: UIViewController {
     @IBAction func btnAddChange(_ sender: UIButton) {
         var msg = ""
         if isEdit {
+            #if GAPPS
             if let empRef = currentEmployee as? FullTime {
                 if !isValidRecord(employeeType: 0) {
                     return
@@ -187,6 +193,36 @@ class ViewController: UIViewController {
                 
                 msg = "Intern Employee Record is changed"
             }
+            #else
+            if let empRef = currentEmployee as? FullTime {
+                if !isValidRecord(employeeType: 0) {
+                    return
+                }
+                
+                empRef.setName(txtName.text!)
+                empRef.setAge(Int(txtAge.text!)!)
+                empRef.setDOB(txtDOB.text!)
+                empRef.setCountry(txtCountry.text!)
+                empRef.salary = Int(txtSalaryHoursSchool.text!)!
+                empRef.bonus = Int(txtBonusRate.text!)!
+                
+                msg = "FullTime Employee Record is changed"
+            }
+            else if let empRef = currentEmployee as? PartTime {
+                if !isValidRecord(employeeType: 1) {
+                    return
+                }
+                
+                empRef.setName(txtName.text!)
+                empRef.setAge(Int(txtAge.text!)!)
+                empRef.setDOB(txtDOB.text!)
+                empRef.setCountry(txtCountry.text!)
+                empRef.hoursWorked = Int(txtSalaryHoursSchool.text!)!
+                empRef.rate = Int(txtBonusRate.text!)!
+                
+                msg = "PartTime Employee Record is changed"
+            }
+            #endif
             
             if (currentEmployee!.vehicle_owned != nil) {
                 currentEmployee?.vehicle_owned?.plateNumber = txtPlate.text!
@@ -197,6 +233,7 @@ class ViewController: UIViewController {
             if (!((txtPlate.text?.isEmpty)!)) && (!(txtMake.text?.isEmpty)!) {
                 v = Vehicle(pPlate: txtPlate.text!, pMake: txtMake.text!)
             }
+            #if GAPPS
             if ctrlEmpType.selectedSegmentIndex == 0 {
                 // FullTime
                 if !isValidRecord(employeeType: 0) {
@@ -239,6 +276,36 @@ class ViewController: UIViewController {
                 
                 msg = "Intern Employee Record is added"
             }
+            #else
+            if ctrlEmpType.selectedSegmentIndex == 0 {
+                // FullTime
+                if !isValidRecord(employeeType: 0) {
+                    return
+                }
+                
+                let ft : FullTime = FullTime(name: txtName.text!, age: Int(txtAge.text!)!, DOB: txtDOB.text!, country: txtCountry.text!, salary: Int(txtSalaryHoursSchool.text!)!, bonus: Int(txtBonusRate.text!)!, pPV: v)
+                
+                ViewController.arrEmployee.append(ft)
+                currentEmployee = ft;
+                changeEditState(on: true)
+                
+                msg = "FullTime Employee Record is added"
+            }
+            else if ctrlEmpType.selectedSegmentIndex == 1 {
+                // PartTime
+                if !isValidRecord(employeeType: 1) {
+                    return
+                }
+                
+                let pt : PartTime = PartTime(name: txtName.text!, age: Int(txtAge.text!)!, DOB: txtDOB.text!, country: txtCountry.text!, hoursWorked: Int(txtSalaryHoursSchool.text!)!, rate: Int(txtBonusRate.text!)!, pPV: v)
+                
+                ViewController.arrEmployee.append(pt)
+                currentEmployee = pt;
+                changeEditState(on: true)
+                
+                msg = "PartTime Employee Record is added"
+            }
+            #endif
         }
         ViewController.save()
         if(msg != ""){
@@ -296,8 +363,8 @@ class ViewController: UIViewController {
     }
     
     public func display (e : Employee?) {
-        navBarTitle.title = "Hello"
         clearField(shouldClearName: false)
+        #if GAPPS
         if let empRef = e as? FullTime {
             ctrlEmpType.selectedSegmentIndex = 0
             txtName.text = empRef.getName()
@@ -322,6 +389,25 @@ class ViewController: UIViewController {
             txtCountry.text = String(empRef.getCountry())
             txtSalaryHoursSchool.text = empRef.collegeName
         }
+        #else
+        if let empRef = e as? FullTime {
+            ctrlEmpType.selectedSegmentIndex = 0
+            txtName.text = empRef.getName()
+            txtAge.text = String(empRef.getAge())
+            txtDOB.text = String(empRef.getDOB())
+            txtCountry.text = String(empRef.getCountry())
+            txtSalaryHoursSchool.text = String(empRef.salary)
+            txtBonusRate.text = String(empRef.bonus)
+        } else if let empRef = e as? PartTime {
+            ctrlEmpType.selectedSegmentIndex = 1
+            txtName.text = empRef.getName()
+            txtAge.text = String(empRef.getAge())
+            txtDOB.text = String(empRef.getDOB())
+            txtCountry.text = String(empRef.getCountry())
+            txtSalaryHoursSchool.text = String(empRef.hoursWorked)
+            txtBonusRate.text = String(empRef.rate)
+        }
+        #endif
         
         if (e?.vehicle_owned != nil) {
             txtPlate.text = e?.vehicle_owned?.plateNumber

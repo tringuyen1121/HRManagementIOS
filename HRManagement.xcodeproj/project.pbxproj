@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41F422A2357B21F00B6A084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DF94232C2DFC007C3786 /* Main.storyboard */; };
+		F41F422B2357B21F00B6A084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DF94232C2DFC007C3786 /* Main.storyboard */; };
 		F444DF91232C2DFC007C3786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DF90232C2DFC007C3786 /* AppDelegate.swift */; };
 		F444DF93232C2DFC007C3786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DF92232C2DFC007C3786 /* ViewController.swift */; };
-		F444DF96232C2DFC007C3786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DF94232C2DFC007C3786 /* Main.storyboard */; };
 		F444DF98232C2DFE007C3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444DF97232C2DFE007C3786 /* Assets.xcassets */; };
 		F444DF9B232C2DFE007C3786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DF99232C2DFE007C3786 /* LaunchScreen.storyboard */; };
 		F444DFA3232CEF95007C3786 /* Country.plist in Resources */ = {isa = PBXBuildFile; fileRef = F444DFA2232CEF95007C3786 /* Country.plist */; };
@@ -24,10 +25,27 @@
 		F444DFB5232CF1B4007C3786 /* EmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB4232CF1B4007C3786 /* EmployeeListCell.swift */; };
 		F444DFB7232CF1E1007C3786 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB6232CF1E1007C3786 /* InfoListViewController.swift */; };
 		F444DFB9232E4458007C3786 /* CountryPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB8232E4458007C3786 /* CountryPickerDialog.swift */; };
+		F46858292352A27700F7BBBD /* GappsAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46858282352A27700F7BBBD /* GappsAssets.xcassets */; };
+		F4EC71952352616400AFB7E4 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFAE232CF0C6007C3786 /* Vehicle.swift */; };
+		F4EC71962352616400AFB7E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DF92232C2DFC007C3786 /* ViewController.swift */; };
+		F4EC71972352616400AFB7E4 /* CountryPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB8232E4458007C3786 /* CountryPickerDialog.swift */; };
+		F4EC71982352616400AFB7E4 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFAC232CF0A8007C3786 /* Intern.swift */; };
+		F4EC71992352616400AFB7E4 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFA8232CF046007C3786 /* FullTime.swift */; };
+		F4EC719A2352616400AFB7E4 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFA6232CEFDF007C3786 /* Employee.swift */; };
+		F4EC719B2352616400AFB7E4 /* EmployeeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB2232CF197007C3786 /* EmployeeListController.swift */; };
+		F4EC719C2352616400AFB7E4 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFAA232CF088007C3786 /* PartTime.swift */; };
+		F4EC719D2352616400AFB7E4 /* DOBPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB0232CF0F1007C3786 /* DOBPickerDialog.swift */; };
+		F4EC719E2352616400AFB7E4 /* IDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFA4232CEFC3007C3786 /* IDisplayable.swift */; };
+		F4EC719F2352616400AFB7E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DF90232C2DFC007C3786 /* AppDelegate.swift */; };
+		F4EC71A02352616400AFB7E4 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB6232CF1E1007C3786 /* InfoListViewController.swift */; };
+		F4EC71A12352616400AFB7E4 /* EmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DFB4232CF1B4007C3786 /* EmployeeListCell.swift */; };
+		F4EC71A42352616400AFB7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DF99232C2DFE007C3786 /* LaunchScreen.storyboard */; };
+		F4EC71A52352616400AFB7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444DF97232C2DFE007C3786 /* Assets.xcassets */; };
+		F4EC71A72352616400AFB7E4 /* Country.plist in Resources */ = {isa = PBXBuildFile; fileRef = F444DFA2232CEF95007C3786 /* Country.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F444DF8D232C2DFC007C3786 /* HRManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F444DF8D232C2DFC007C3786 /* Happeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F444DF90232C2DFC007C3786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F444DF92232C2DFC007C3786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F444DF95232C2DFC007C3786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,10 +64,20 @@
 		F444DFB4232CF1B4007C3786 /* EmployeeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListCell.swift; sourceTree = "<group>"; };
 		F444DFB6232CF1E1007C3786 /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
 		F444DFB8232E4458007C3786 /* CountryPickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerDialog.swift; sourceTree = "<group>"; };
+		F46858282352A27700F7BBBD /* GappsAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GappsAssets.xcassets; sourceTree = "<group>"; };
+		F4EC71AB2352616400AFB7E4 /* Gapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EC71AC2352616400AFB7E4 /* Gapps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Gapps-Info.plist"; path = "/Users/tringuyen/Documents/Documents/Private/HRManagementIOS/Gapps-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F444DF8A232C2DFC007C3786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EC71A22352616400AFB7E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,13 +92,15 @@
 			children = (
 				F444DF8F232C2DFC007C3786 /* HRManagement */,
 				F444DF8E232C2DFC007C3786 /* Products */,
+				F4EC71AC2352616400AFB7E4 /* Gapps-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		F444DF8E232C2DFC007C3786 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F444DF8D232C2DFC007C3786 /* HRManagement.app */,
+				F444DF8D232C2DFC007C3786 /* Happeo.app */,
+				F4EC71AB2352616400AFB7E4 /* Gapps.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,10 +108,10 @@
 		F444DF8F232C2DFC007C3786 /* HRManagement */ = {
 			isa = PBXGroup;
 			children = (
+				F46858242352A1ED00F7BBBD /* Assets */,
 				F444DF90232C2DFC007C3786 /* AppDelegate.swift */,
 				F444DF92232C2DFC007C3786 /* ViewController.swift */,
 				F444DF94232C2DFC007C3786 /* Main.storyboard */,
-				F444DF97232C2DFE007C3786 /* Assets.xcassets */,
 				F444DF99232C2DFE007C3786 /* LaunchScreen.storyboard */,
 				F444DF9C232C2DFE007C3786 /* Info.plist */,
 				F444DFA2232CEF95007C3786 /* Country.plist */,
@@ -100,12 +130,21 @@
 			path = HRManagement;
 			sourceTree = "<group>";
 		};
+		F46858242352A1ED00F7BBBD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F444DF97232C2DFE007C3786 /* Assets.xcassets */,
+				F46858282352A27700F7BBBD /* GappsAssets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F444DF8C232C2DFC007C3786 /* HRManagement */ = {
+		F444DF8C232C2DFC007C3786 /* Happeo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F444DF9F232C2DFE007C3786 /* Build configuration list for PBXNativeTarget "HRManagement" */;
+			buildConfigurationList = F444DF9F232C2DFE007C3786 /* Build configuration list for PBXNativeTarget "Happeo" */;
 			buildPhases = (
 				F444DF89232C2DFC007C3786 /* Sources */,
 				F444DF8A232C2DFC007C3786 /* Frameworks */,
@@ -115,9 +154,26 @@
 			);
 			dependencies = (
 			);
-			name = HRManagement;
+			name = Happeo;
 			productName = HRManagement;
-			productReference = F444DF8D232C2DFC007C3786 /* HRManagement.app */;
+			productReference = F444DF8D232C2DFC007C3786 /* Happeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4EC71932352616400AFB7E4 /* Gapps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EC71A82352616400AFB7E4 /* Build configuration list for PBXNativeTarget "Gapps" */;
+			buildPhases = (
+				F4EC71942352616400AFB7E4 /* Sources */,
+				F4EC71A22352616400AFB7E4 /* Frameworks */,
+				F4EC71A32352616400AFB7E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gapps;
+			productName = HRManagement;
+			productReference = F4EC71AB2352616400AFB7E4 /* Gapps.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +204,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F444DF8C232C2DFC007C3786 /* HRManagement */,
+				F444DF8C232C2DFC007C3786 /* Happeo */,
+				F4EC71932352616400AFB7E4 /* Gapps */,
 			);
 		};
 /* End PBXProject section */
@@ -160,8 +217,20 @@
 			files = (
 				F444DF9B232C2DFE007C3786 /* LaunchScreen.storyboard in Resources */,
 				F444DF98232C2DFE007C3786 /* Assets.xcassets in Resources */,
-				F444DF96232C2DFC007C3786 /* Main.storyboard in Resources */,
 				F444DFA3232CEF95007C3786 /* Country.plist in Resources */,
+				F41F422B2357B21F00B6A084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EC71A32352616400AFB7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EC71A42352616400AFB7E4 /* LaunchScreen.storyboard in Resources */,
+				F41F422A2357B21F00B6A084 /* Main.storyboard in Resources */,
+				F4EC71A52352616400AFB7E4 /* Assets.xcassets in Resources */,
+				F4EC71A72352616400AFB7E4 /* Country.plist in Resources */,
+				F46858292352A27700F7BBBD /* GappsAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +254,26 @@
 				F444DF91232C2DFC007C3786 /* AppDelegate.swift in Sources */,
 				F444DFB7232CF1E1007C3786 /* InfoListViewController.swift in Sources */,
 				F444DFB5232CF1B4007C3786 /* EmployeeListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EC71942352616400AFB7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EC71952352616400AFB7E4 /* Vehicle.swift in Sources */,
+				F4EC71962352616400AFB7E4 /* ViewController.swift in Sources */,
+				F4EC71972352616400AFB7E4 /* CountryPickerDialog.swift in Sources */,
+				F4EC71982352616400AFB7E4 /* Intern.swift in Sources */,
+				F4EC71992352616400AFB7E4 /* FullTime.swift in Sources */,
+				F4EC719A2352616400AFB7E4 /* Employee.swift in Sources */,
+				F4EC719B2352616400AFB7E4 /* EmployeeListController.swift in Sources */,
+				F4EC719C2352616400AFB7E4 /* PartTime.swift in Sources */,
+				F4EC719D2352616400AFB7E4 /* DOBPickerDialog.swift in Sources */,
+				F4EC719E2352616400AFB7E4 /* IDisplayable.swift in Sources */,
+				F4EC719F2352616400AFB7E4 /* AppDelegate.swift in Sources */,
+				F4EC71A02352616400AFB7E4 /* InfoListViewController.swift in Sources */,
+				F4EC71A12352616400AFB7E4 /* EmployeeListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tringuyen.example.HRManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG HAPPEO";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -357,6 +447,45 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tringuyen.example.HRManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = HAPPEO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4EC71A92352616400AFB7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = GappsAppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV23AH98TD;
+				INFOPLIST_FILE = "$(SRCROOT)/Gapps-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tringuyen.example.HRManagement.gapps-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG GAPPS";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4EC71AA2352616400AFB7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = GappsAppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV23AH98TD;
+				INFOPLIST_FILE = "$(SRCROOT)/Gapps-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tringuyen.example.HRManagement.gapps-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = GAPPS;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -374,11 +503,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F444DF9F232C2DFE007C3786 /* Build configuration list for PBXNativeTarget "HRManagement" */ = {
+		F444DF9F232C2DFE007C3786 /* Build configuration list for PBXNativeTarget "Happeo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F444DFA0232C2DFE007C3786 /* Debug */,
 				F444DFA1232C2DFE007C3786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EC71A82352616400AFB7E4 /* Build configuration list for PBXNativeTarget "Gapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EC71A92352616400AFB7E4 /* Debug */,
+				F4EC71AA2352616400AFB7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
